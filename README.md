@@ -1,10 +1,10 @@
-# Shadow Escape
+# nolhyte
 
 A thrilling 2D browser game where you must navigate through the shadows to avoid deadly light sources.
 
 ## Game Description
 
-Shadow Escape is a unique stealth game where light is your enemy. You control a character who must stay hidden in the shadows to survive. The game features advanced 2D lighting and shadow effects, creating an immersive and challenging gameplay experience.
+nolhyte is a unique stealth game where light is your enemy. You control a character who must stay hidden in the shadows to survive. The game features advanced 2D lighting and shadow effects, creating an immersive and challenging gameplay experience.
 
 As you progress through the levels, you'll face increasingly complex obstacles and more aggressive light sources. Your goal is to survive until the timer runs out on each level, earning points by staying hidden in the shadows.
 
@@ -79,7 +79,7 @@ The game is built using vanilla JavaScript and HTML5 Canvas, featuring:
 
 ## Credits
 
-- Game Design & Development: Shadow Escape Team
+- Game Design & Development: nolhyte team
 - Sound Effects: [Various sources, properly licensed]
 - Special thanks to the open source community for inspiration and resources
 
