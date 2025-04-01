@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Escape</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Shadow Escape</h1>
+        <div class="game-description">
+            <p>Navigate through the shadows and avoid deadly light sources in this thrilling stealth game.</p>
+            <p>Stay hidden, survive, and complete all 5 levels to win!</p>
+        </div>
+        
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        
+        <div class="game-controls">
+            <button id="startGame" class="neon-button">Start Game</button>
+            <button id="howToPlay" class="neon-button">How To Play</button>
+            <div class="sound-control">
+                <button id="toggleSound" class="neon-button">Sound: ON</button>
+            </div>
+        </div>
+        
+        <div class="game-info">
+            <div class="info-box">
+                <h3 class="neon-cyan">Quick Controls</h3>
+                <p>Mouse - Move player</p>
+                <p>M - Toggle sound</p>
+                <p>P - Performance metrics</p>
+                <p>S - Shadow quality</p>
+            </div>
+        </div>
+        
+        <div class="performance-metrics" id="performanceMetrics" style="display: none;">
+            <div>FPS: <span id="fpsCounter">0</span></div>
+            <div>Frame Time: <span id="frameTimeCounter">0</span>ms</div>
+        </div>
+    </div>
+    
+    <!-- Game instructions modal -->
+    <div class="modal-overlay" id="instructionsModal">
+        <div class="modal-content">
+            <h2 class="neon-cyan">How to Play</h2>
+            <p>Move with your mouse to avoid the light.</p>
+            <p>Stay in the shadows to survive and earn points.</p>
+            <p>Complete each level by surviving until the timer runs out.</p>
+            <p>If you stay in the light too long, your danger meter will fill and you'll lose!</p>
+            <div class="controls-info">
+                <h3 class="neon-yellow">Controls:</h3>
+                <p>Mouse - Move player</p>
+                <p>M - Toggle sound</p>
+                <p>P - Toggle performance metrics</p>
+                <p>S - Toggle shadow quality</p>
+            </div>
+            <button id="closeInstructions" class="neon-button">Start Game</button>
+        </div>
+    </div>
+    
+    <script src="levelLayouts.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
